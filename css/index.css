@@ -1,0 +1,47 @@
+.layer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -150px 0 0 -200px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0 0 10px #ccc;
+  z-index: 9999;
+}
+.layer-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0 5px 0 10px;
+  height: 30px;
+  background-color: #6cf;
+  color: #fff;
+}
+.layer-title span {
+  line-height: 30px;
+}
+.layer-cont {
+  padding-top: 30px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#layer-closebtn {
+  margin-top: 8px;
+  float: right;
+  height: 12px;
+  line-height: 12px;
+  padding: 0 3px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+#mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 100;
+}

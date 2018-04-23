@@ -1,0 +1,405 @@
+/* yui3 reset.css */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+fieldset,
+img {
+    border: 0
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal
+}
+ol,
+ul {
+    list-style: none
+}
+a {
+	text-decoration:none;
+}
+caption,
+th {
+    text-align: left
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+q:before,
+q:after {
+    content: ''
+}
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal
+}
+sup {
+    vertical-align: text-top
+}
+sub {
+    vertical-align: text-bottom
+}
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%
+}
+legend {
+    color: #000
+}
+iframe {
+    display: block;
+}
+
+/* yui3 fonts */
+body {
+  font-size:14px;
+  font-family:"Microsoft Yahei";
+  color:#333;
+}
+select,
+input,
+button,
+textarea {
+    font: 99% arial, helvetica, clean, sans-serif
+}
+table {
+    font-size: inherit;
+    font: 100%
+}
+pre,
+code,
+kbd,
+samp,
+tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%
+}
+
+/* utilities */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.l {
+    float: left !important;
+}
+.r {
+    float: right !important;
+}
+.hidden {
+    display: none !important;
+}
+.invisible {
+    visibility: hidden !important;
+}
+
+/*! grid system 24栅格 998px */
+.container {
+	/*width:998px;*/
+	margin:0 60px;
+}
+.row {
+	overflow:hidden;
+}
+.span24 {
+	width: 998px;
+	float:left;
+}
+.span23 {
+	width: 956px;
+	float:left;
+}
+.span22 {
+	width: 914px;
+	float:left;
+}
+.span21 {
+	width: 872px;
+	float:left;
+}
+.span20 {
+	width: 830px;
+	float:left;
+}
+.span19 {
+	width: 788px;
+	float:left;
+}
+.span18 {
+	width: 746px;
+	float:left;
+}
+.span17 {
+	width: 704px;
+	float:left;
+}
+.span16 {
+	width: 662px;
+	float:left;
+}
+.span15 {
+	width: 620px;
+	float:left;
+}
+.span14 {
+	width: 578px;
+	float:left;
+}
+.span13 {
+	width: 536px;
+	float:left;
+}
+.span12 {
+	width: 494px;
+	float:left;
+}
+.span11 {
+	width: 452px;
+	float:left;
+}
+.span10 {
+	width: 410px;
+	float:left;
+}
+.span9 {
+	width: 368px;
+	float:left;
+}
+.span8 {
+	width: 326px;
+	float:left;
+}
+.span7 {
+	width: 284px;
+	float:left;
+}
+.span6 {
+	width: 242px;
+	float:left;
+}
+.span5 {
+	width: 200px;
+	float:left;
+}
+.span4 {
+	width: 158px;
+	float:left;
+}
+.span3 {
+	width: 116px;
+	float:left;
+}
+.span2 {
+	width: 74px;
+	float:left;
+}
+.span1 {
+	width: 32px;
+	float:left;
+}
+.ml10 {
+	margin-left:10px;
+}
+.mt10 {
+	margin-top:10px;
+}
+
+/*自定义公共样式*/
+body.zhnr {
+	background: url("../images/zhnr.png") center top no-repeat;
+}
+body.ywxx {
+	background: url("../images/ywxx.png") center top no-repeat;
+}
+
+/*top*/
+.top {
+	position: relative;
+	height: 111px;
+}
+.top img {
+	padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+}
+.top-date {
+	position: absolute;
+	top: 7px;
+	right: 72px;
+	color: #fff;
+}
+.top-date > span {
+	display: block;
+}
+.top-date .date01 {
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.top-date .date02 {
+	margin-top: 3px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: -20px;
+}
+.top-date .date02 > span {
+	float: left;
+	margin-right: 20px;
+}
+
+/*main*/
+.main {
+	background: #fff;
+	border-radius: 7px;
+	-moz-box-shadow:0px 0px 6px #bad8f0; 
+	-webkit-box-shadow:0px 0px 6px #bad8f0; 
+	box-shadow:0px 0px 6px #bad8f0;
+}
+
+/*列表每项li的span*/
+.list li {
+	display: table;
+	width: 100%;
+}
+.list span {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*固定列表头*/
+.list-header-wrap {
+	background: url("../images/list-fixed.png");
+}
+.list-header {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.list-header li {
+	letter-spacing: 2px;
+	height: 80px;
+}
+
+/*列表内容*/
+.list-cont-wrap {
+	padding: 0 2px 2px 2px;
+}
+.list-cont li span {
+	border-right: 1px solid #e0e0e0;
+}
+.list-cont li span:first-child {
+	color: #ff8e02;
+	font-size: 30px;
+	font-weight: bold;
+}
+.list-cont li span:last-child {
+	border: 0;
+}
+
+/*对于一些特殊项的样式*/
+span.leftalign {
+	box-sizing: border-box;
+	padding: 0 15px;
+	/*text-align: left;*/
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+
+/*bottom*/
+.bottom {
+	display: table;
+	margin-top: 20px;
+}
+.consult-tele {
+	width: 220px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.tele-wrap {
+	/*background: #fff;*/
+	/*border: 1px solid #9fc3fe;*/
+	border-radius: 2px;
+
+	display: table-cell;
+	vertical-align: middle;
+}
+.teles {
+	margin-right: -100px;
+}
+.teles li {
+	float: left;
+	font-size: 24px;
+	
+}
+.teles .teletag {
+	float: left;
+	text-align: right;
+}
+.teles .telenum {
+	float: left;
+	color: #2c74e9;
+}
+
